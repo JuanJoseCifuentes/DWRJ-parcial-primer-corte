@@ -3,9 +3,114 @@
 */
 
 :root {
-    --background-color: #1E1E1E;
+    --background-color: #1E1E20;
+    --card-color: #313234
 }
 
-.character-list {
+body {
     background-color: var(--background-color);
+    overflow:visible
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 20px;
+    
+    font-family: Inter;
+}
+
+.title {
+    color: #11B0C8;
+    font-size: 72px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+#char-list {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 16px;
+}
+
+.char-card {
+    background-color: var(--card-color);
+    border-radius: 8px;
+    height: 400px;
+    width: 294px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.char-img {
+    height: 200px;
+    width: 262px;
+
+    margin: 16px;
+
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.text-content{
+    flex-grow: 5.45; 
+
+    color: white;
+
+    font-size: 16px;
+}
+
+.name{
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 8px;
+    gap: 4px;
+}
+
+.tag-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.Dead {
+    filter: invert(18%) sepia(78%) saturate(4754%) hue-rotate(3deg) brightness(104%) contrast(106%);
+}
+
+.Alive {
+    filter: invert(85%) sepia(27%) saturate(1007%) hue-rotate(20deg) brightness(96%) contrast(93%);
+}
+
+.unknown {
+    filter: invert(66%) sepia(12%) saturate(92%) hue-rotate(321deg) brightness(93%) contrast(91%);
+}
+
+.fav{
+    background: transparent;
+    border: none !important;
+    
+    height: 48px;
+    width: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
