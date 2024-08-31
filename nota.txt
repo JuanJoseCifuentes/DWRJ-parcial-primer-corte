@@ -1,0 +1,26 @@
+
+1. capa de servicio (service.js):
+    + muy buen manejo de clases y sus propiedades
+    ! recuerda que es mejor usar las propiedades de un objecto directamente character.name
+    + muy buen manejo de error
+2.  manejo HTML y Acceso al DOM (index.js):
+    + buen dominio de acceso al DOM y de funciones asyncronas
+    + excelente manejo de estructura HTML y su semantica
+3.  manejo de eventos (index.js)
+    + muy bien por el manejo de eventos, estupendo trabajo
+4.  manejo de estilos
+    + excelente manejo de maquetacion, uso de selectores 
+    + muy buen dominio del maquetado
+    ! recuerda tener una convencion para el nombramiento de clases en css hay unas en mayuscula y otras en minuscula
+    - faltaron algunos estilos, como bordes en las imagenes de los personajes y cuidar un poco la proporcion de las letras e iconos -0.2
+
+
+Calificacion
+  1. Estilos y diseño HTML y CSS deacuerdo al figma -> CUMPLE (1.8 puntos)
+  2. Listado de personajes con toda la información solicitada esto incluye indicador de Alive & Dead con el estilo respectivo -> CUMPLE (2 puntos)
+  3. Evento de click y mensaje informativo ´Hola soy (nombre personaje)´ -> CUMPLE (1 punto)
+
+Nota: 4.8
+
+
+ejercicio puntual: 5
